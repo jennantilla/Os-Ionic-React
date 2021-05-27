@@ -6,7 +6,7 @@ Running on Cordova ```onesignal-cordova-plugin 3.0.0-beta1``` release.
 
 ### Running this example
 
-To run the provided example, can use serve command:
+To run the provided example:
 
 ```ionic run android```
 
@@ -25,7 +25,7 @@ To run the provided example, can use serve command:
 ```npm install onesignal-cordova-plugin```
 ```npx cap sync```
 
-6. Add [intialization code](https://documentation.onesignal.com/docs/ionic-sdk-setup#android-requirements) to the App.tsx file (note that this example app has upgraded from Cordova 2.x.x to 3.x.x and temporarily needs to use ```(window as any).plugins.OneSignal.setAppId(YOUR_APP_ID)```). More context [here](https://github.com/OneSignal/OneSignal-Cordova-SDK/issues/700#issuecomment-842788403)
+6. Add [intialization code](https://documentation.onesignal.com/docs/ionic-sdk-setup#android-requirements) to the App.tsx file (note that this example app has upgraded from Cordova 2.x.x to 3.x.x and temporarily needs to use ```(window as any).plugins.OneSignal.setAppId(YOUR_APP_ID)```). More context [here](https://github.com/OneSignal/OneSignal-Cordova-SDK/issues/700#issuecomment-842788403).
 
 5. Open project in Android Studio
 ```ionic capacitor build android```
