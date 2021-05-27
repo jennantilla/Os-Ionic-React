@@ -36,5 +36,14 @@ const App: React.FC = () => (
     </IonReactRouter>
   </IonApp>
 );
+//Remove this method to stop OneSignal Debugging 
+(window as any).plugins.OneSignal.setLogLevel({logLevel: 6, visualLevel: 0});
+
+// var notificationOpenedCallback = function(jsonData) {
+//     console.log('notificationOpenedCallback: ' + JSON.stringify(jsonData));
+// };
+
+// OneSignal Initialization
+(window as any).plugins.OneSignal.setAppId("ad2ae0bc-1507-40c3-97b0-f70f437264d2");
 
 export default App;
